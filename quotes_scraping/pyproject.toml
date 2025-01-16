@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "quotes-scraping"
+version = "0.1.0"
+description = ""
+authors = ["Maksym Sydorenko <maksym.sy96@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+pymongo = "^4.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
