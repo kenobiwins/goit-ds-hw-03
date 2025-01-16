@@ -171,4 +171,4 @@ cython_debug/
 .pypirc
 
 # omit output files
-**/output/**
+# **/output/**
